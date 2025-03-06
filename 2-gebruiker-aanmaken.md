@@ -11,6 +11,6 @@ Als je geen inspiratie hebt voor een wachtwoord, dan kun je er een [laten genere
 
 Sla het wachtwoord dat je gebruikt wel ergens op, bij voorkeur in een wachtwoord-beheerder (password-manager) zoals [KeePass](https://keepass.info/).
 
-Nu kun je [verbinden](0-inloggen_op_aerver.md) met jouw zojuist aangemaakte database via jouw zojuist aangemaakt gebruiker.
+Nu kun je [verbinden](0-inloggen_op_server.md) met jouw zojuist aangemaakte database via jouw zojuist aangemaakt gebruiker.
 
 Volgende stap: [tabel aanmaken](3-tabel-aanmaken.md)
