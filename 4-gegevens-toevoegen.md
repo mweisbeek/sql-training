@@ -34,6 +34,6 @@ Kies voor Tasks > Import data (of Import Flat File)
 Met deze functie kun je een bestand selecteren.
 En opgeven in welke tabel deze gegevens moeten worden geimporteerd.
 
-<images/2025-03-07 00_45_07-Import Flat File 'SqlCursus'.png>
+![Gegevens importeren](<images/2025-03-07 00_45_07-Import Flat File 'SqlCursus'.png>)
 
 **Let op:** deze functie maakt standaard een nieuwe tabel aan. De gegevens die worden geimporteerd kun je altijd later in een andere tabel overnemen.  
