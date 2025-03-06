@@ -7,7 +7,7 @@ Deze kun je gebruiken om met de test-server te verbinden en een eigen database a
 - **Server Name:** SQL01-EDU-TZ.TST.netivity.nl
 - **Authentication:** SQL Server Authentication
   - **Login:** CreateDatabases
-  - **Password:** *TO_BE_REVEALED*
+  - **Password:** *op aanvraag beschikbaar*
 - **Encryption:** optional
 
 ![alt text](<i2025-02-27 18_25_32-Solution1 - Microsoft SQL Server Management Studio Preview.png>)
