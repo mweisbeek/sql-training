@@ -7,7 +7,7 @@ Deze kun je gebruiken om met de test-server te verbinden en een eigen database a
 - [verbind via SSMS met de server](0-inloggen-_op_server.md)
 - rechtsklik op **Databases** en kies voor **New Database...**
 - geef de database een naam (liefst met jouw eigen naam erin, zodat we die later kunnen herkennen)
-- 
+
 ![alt text](<2025-02-27 18_33_18-New Database.png>)
 
 ## Manieren van inloggen
