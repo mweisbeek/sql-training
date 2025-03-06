@@ -5,6 +5,8 @@ Daarvoor klik je met de rechtermuisknop op Tables en kies je voor **New > Table.
 
 Dan opent een venster met de Table Designer.
 
+
+
 ### Voorbeeld van een tabel
 
 
@@ -26,3 +28,5 @@ GO
 ```
 
 Zie hier een lijst met [data-types](data-types.md) 
+
+
