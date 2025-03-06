@@ -10,4 +10,4 @@ Deze kun je gebruiken om met de test-server te verbinden en een eigen database a
   - **Password:** *TO_BE_REVEALED*
 - **Encryption:** optional
 
-![alt text](<images/2025-02-27 18_25_32-Solution1 - Microsoft SQL Server Management Studio Preview.png>)
+![alt text](<i2025-02-27 18_25_32-Solution1 - Microsoft SQL Server Management Studio Preview.png>)
