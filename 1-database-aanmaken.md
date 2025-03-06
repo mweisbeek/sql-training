@@ -8,7 +8,7 @@ Deze kun je gebruiken om met de test-server te verbinden en een eigen database a
 - rechtsklik op **Databases** en kies voor **New Database...**
 - geef de database een naam (liefst met jouw eigen naam erin, zodat we die later kunnen herkennen)
 
-![alt text](<2025-02-27 18_33_18-New Database.png>)
+![Nieuwe database](<images/2025-02-27 18_33_18-New Database.png>)
 
 ## Manieren van inloggen
 Er zijn 2 manieren om in te loggen op SQL Server:
@@ -21,6 +21,6 @@ In deze training gebruiken wij de manier via SQL Authenticatie. Dat betekent dat
 Normaal gesproken maak je SQL-gebruikers op de server aan. 
 Wij willen deze graag bij de database houden. Daarom kiezen we voor **Partial Containment**.
 
-![alt text](partial-containment.png)
+![Partial Containment](images/partial-containment.png)
 
 [Maak nu een eigen gebruiker aan](2-gebruiker-aanmaken.md)
