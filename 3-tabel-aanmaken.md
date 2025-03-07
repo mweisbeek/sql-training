@@ -3,7 +3,7 @@ Nu wordt het interessant, want we gaan onze eerste tabel aanmaken :smiley:
 
 Daarvoor klik je met de rechtermuisknop op Tables en kies je voor **New > Table...**
 
-Dan opent een venster met de Table Designer.
+Dan opent een venster met de Table Designer met een compleet lege tabel, geen velden, helemaal niets.
 
 ![empty Table Designer](<images/2025-03-06 23_09_34-2022-2P3X1T3.SqlCursus - dbo.Table_1 - Microsoft SQL Server Management Studio Pr.png>)
 
@@ -11,9 +11,15 @@ Dan opent een venster met de Table Designer.
 Zo kun je een tabel aanmaken:
 ![filled Table Designer](<images/2025-03-06 23_24_42-2022-2P3X1T3.SqlCursus - dbo.Deelnemers - Microsoft SQL Server Management Studio.png>)
 
+Zie hier een lijst met [data-types](data-types.md) 
+
 Ook kun je aan een veld een standaard-waarde meegeven, bijvoorbeeld:
 - NEWID() om een UniqueIdentifier automatisch van een waarde te voorzien
 - GETDATE() om een DateTime automatisch van de huidige datum te voorzien
+
+![Default value](<images/new-table-newid.png>)
+
+Als je klaar bent met het aanmaken van de tabel, dan sla je de tabel op.
 
 ```sql
 CREATE TABLE [dbo].[Deelnemers](
@@ -31,7 +37,5 @@ CREATE TABLE [dbo].[Deelnemers](
 ))
 GO
 ```
-
-Zie hier een lijst met [data-types](data-types.md) 
 
 
