@@ -62,7 +62,8 @@ Moet(en) een of meerdere kolommen nog in een ander formaat worden geschreven?
 ```sql
 SELECT Id,
   Naam + '_Suffix' as Naam,
-  **CONVERT(VARCHAR(20), Created, 105)** as DatumAangemaakt
+  CONVERT(VARCHAR(20), Created, 105) as DatumAangemaakt, -- het formaat dat we in Nederland gewend zijn
+  CONVERT(VARCHAR(20), Created, 120) as [Datum Aangemaakt (sortering)] -- een formaat dat je het beste met databases kunt gebruiken: yyyy-MM-dd hh:mm:ss
 FROM Deelnemers
 Order By Naam
 ```
