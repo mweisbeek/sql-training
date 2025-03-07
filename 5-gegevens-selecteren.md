@@ -22,6 +22,21 @@ WHERE Naam = 'Martijn Weisbeek'
 ### WHERE ... LIKE ....
 Met LIKE kun je gedeeltelijke gegevens mmatchen.
 
+### 
+Wat gaat er fout in onderstaande query:
+
+```sql
+select *
+from deelnemers 
+where naam = 1
+```
+
+**Hint:**
+```sql
+Msg 245, Level 16, State 1, Line 1
+Conversion failed when converting the varchar value 'Martijn Weisbeek' to data type int.
+```
+
 Dit voorbeeld selecteert bijvoorbeeld alle deelnemers van wie de Naam eindigt op **Weisbeek**.
 ```sql
 SELECT *
