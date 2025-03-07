@@ -54,7 +54,7 @@ SELECT Id, Naam, Created as [Datum aangemaakt]
 FROM Deelnemers
 Order By Naam
 ```
-Tip: gebruik blokhaken als de naam die je wilt gebruiken blauw wordt gekleurd (ten teken dat dit een gereserveerd woord is in T-SQL).
+**Tip:** gebruik blokhaken als de naam die je wilt gebruiken blauw wordt gekleurd (ten teken dat dit een gereserveerd woord is in T-SQL).
 Of als je bijvoorbeeld een spatie in de kolomnaam wilt gebruiken.
 
 ### Exporteren in een andere vorm?
