@@ -5,11 +5,11 @@ Daarvoor klik je met de rechtermuisknop op Tables en kies je voor **New > Table.
 
 Dan opent een venster met de Table Designer.
 
-!(empty Table Designer)/<images/2025-03-06 23_09_34-2022-2P3X1T3.SqlCursus - dbo.Table_1 - Microsoft SQL Server Management Studio Pr.png>
+![empty Table Designer](<images/2025-03-06 23_09_34-2022-2P3X1T3.SqlCursus - dbo.Table_1 - Microsoft SQL Server Management Studio Pr.png>)
 
 ### Voorbeeld van een tabel
 Zo kun je een tabel aanmaken:
-!(filled Table Designer)/<images/2025-03-06 23_24_42-2022-2P3X1T3.SqlCursus - dbo.Deelnemers - Microsoft SQL Server Management Studio.png>
+![filled Table Designer](<images/2025-03-06 23_24_42-2022-2P3X1T3.SqlCursus - dbo.Deelnemers - Microsoft SQL Server Management Studio.png>)
 
 Ook kun je aan een veld een standaard-waarde meegeven, bijvoorbeeld:
 - NEWID() om een UniqueIdentifier automatisch van een waarde te voorzien
