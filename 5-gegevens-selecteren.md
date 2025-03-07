@@ -8,7 +8,7 @@ Als we gegevens in onze database hebben, dan is het ook handig als je die weer k
 Eenvoudigste vorm:
 ```sql
 SELECT *
-FROM Deelnemers
+FROM Deelnemersx
 ```
 
 ### WHERE
@@ -22,7 +22,7 @@ WHERE Naam = 'Martijn Weisbeek'
 ### WHERE ... LIKE ....
 Met LIKE kun je gedeeltelijke gegevens mmatchen.
 
-### 
+### ERROR
 Wat gaat er fout in onderstaande query:
 
 ```sql
