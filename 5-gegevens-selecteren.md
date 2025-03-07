@@ -38,3 +38,31 @@ SELECT *
 FROM Deelnemers
 Order By Naam
 ```
+
+### Welke kolommen?
+In welke kolommen ben je uiteindelijk geinteresseerd:
+```sql
+SELECT Id, Naam, Created
+FROM Deelnemers
+Order By Naam
+```
+
+### Met een andere naam: AS
+In welke kolommen ben je uiteindelijk geinteresseerd:
+```sql
+SELECT Id, Naam, Created as [Datum aangemaakt]
+FROM Deelnemers
+Order By Naam
+```
+Tip: gebruik blokhaken als de naam die je wilt gebruiken blauw wordt gekleurd (ten teken dat dit een gereserveerd woord is in T-SQL).
+Of als je bijvoorbeeld een spatie in de kolomnaam wilt gebruiken.
+
+### Exporteren in een andere vorm?
+Moet(en) een of meerdere kolommen nog in een ander formaat worden geschreven?
+```sql
+SELECT Id,
+  Naam + '_Suffix' as Naam,
+  **CONVERT(VARCHAR(20), Created, 105)** as DatumAangemaakt
+FROM Deelnemers
+Order By Naam
+```
