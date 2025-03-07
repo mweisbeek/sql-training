@@ -22,6 +22,15 @@ WHERE Naam = 'Martijn Weisbeek'
 ### WHERE ... LIKE ....
 Met LIKE kun je gedeeltelijke gegevens mmatchen.
 
+Dit voorbeeld selecteert bijvoorbeeld alle deelnemers van wie de Naam eindigt op **Weisbeek**.
+```sql
+SELECT *
+FROM Deelnemers
+WHERE Naam LIKE '%Weisbeek'
+```
+
+Het procent-teken (%) is een _wildcard_ waarmee je aangeeft welk deel van het woord je zoekt.
+
 ### ERROR
 Wat gaat er fout in onderstaande query:
 
@@ -36,15 +45,6 @@ where naam = 1
 Msg 245, Level 16, State 1, Line 1
 Conversion failed when converting the varchar value 'Martijn Weisbeek' to data type int.
 ```
-
-Dit voorbeeld selecteert bijvoorbeeld alle deelnemers van wie de Naam eindigt op **Weisbeek**.
-```sql
-SELECT *
-FROM Deelnemers
-WHERE Naam LIKE '%Weisbeek'
-```
-
-Het procent-teken (%) is een _wildcard_ waarmee je aangeeft welk deel van het woord je zoekt.
 
 ### ORDER BY
 Met **Order By** kun je de gegevens ook sorteren:
