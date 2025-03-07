@@ -7,3 +7,4 @@ Deze SQL cursus heeft de volgende inhoud:
 - [Gebruiker aanmaken](2-gebruiker-aanmaken.md)
 - [Tabel aanmaken](3-tabel-aanmaken.md)
 - [Gegevens toevoegen](4-gegevens-toevoegen.md): INSERT
+- [Gegevens zoeken / selecteren](5-gegevens-selecteren.md): SELECT
