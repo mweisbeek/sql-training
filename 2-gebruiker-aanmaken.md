@@ -7,7 +7,10 @@ Klik vervolgens met de rechtermuisknop op **Users** en kies voor **New User...**
 Daar voeren we een **gebruikersnaam** in en natuurlijk ook een **wachtwoord**.
 Als je geen inspiratie hebt voor een wachtwoord, dan kun je er een [laten genereren](https://www.strongpasswordgenerator.org/).
 
-**Tip: **let op dat er geen puntkomma (;) in je (gegenereerde) wachtwoord komt te staan, want dat kan later een probleem opleveren (bij gebruik in een connectionstring).
+**Tip:** let op dat er geen puntkomma (;) in je (gegenereerde) wachtwoord komt te staan, want dat kan later een probleem opleveren (bij gebruik in een connectionstring).
+
+### Rechten
+Op het tabblad **Membership** geef je vervolgens aan dat de gebruiker **dbowner** is. Daarmee geef je jouw zojuist aangemaakte gebruiker alle rechten in jouw eigen database. 
 
 Sla het wachtwoord dat je gebruikt wel ergens op, bij voorkeur in een wachtwoord-beheerder (password-manager) zoals [KeePass](https://keepass.info/).
 
