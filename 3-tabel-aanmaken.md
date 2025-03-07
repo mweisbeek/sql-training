@@ -1,5 +1,5 @@
 ## Tabel aanmaken
-Nu wordt het interessant, want we gaan onze eerste tabel aanmaken :-)
+Nu wordt het interessant, want we gaan onze eerste tabel aanmaken :smiley:
 
 Daarvoor klik je met de rechtermuisknop op Tables en kies je voor **New > Table...**
 
