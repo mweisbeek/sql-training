@@ -36,6 +36,7 @@ En opgeven in welke tabel deze gegevens moeten worden geimporteerd.
 
 ![Gegevens importeren](<images/2025-03-07 00_45_07-Import Flat File 'SqlCursus'.png>)
 
-**Let op:** deze functie maakt standaard een nieuwe tabel aan. De gegevens die worden geimporteerd kun je altijd later in een andere tabel overnemen.  
+**Let op:** deze functie maakt standaard een nieuwe tabel aan. 
+De gegevens die worden geimporteerd kun je altijd later in een andere tabel overnemen.  
 
-Volgende stap: [gegevens selecteren](5-gegevens-selecteren.md): SELECT
+Volgende stap: [gegevens selecteren](5-gegevens-selecteren.md): (SELECT)
