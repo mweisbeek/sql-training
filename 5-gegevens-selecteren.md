@@ -69,6 +69,36 @@ WHERE Naam LIKE '%Weis%beek%'
 Het bovenstaande zoekt naar een tekst met ergens **Weis** erin, gevolgd door ergens **beek**.
 Let op dat zoeken in een database standaard **niet hoofdlettergevoelig** is (via de collation kun je dat wel aanpassen, maar dat is een wat geavanceerder onderwerp voor later).
 
+### lege waarden: IS NULL
+Een bijzonder geval is als je zoekt naar lege waardes. Daarvoor kent een database een speciale waarde: *NULL*.
+
+Als je daarop wilt zoeken, dan is de syntax ook net wat anders: IS NULL
+
+```sql
+SELECT * 
+FROM Deelnemers
+WHERE Rol IS NULL
+```
+
+### IS NOT NULL
+Of als je juist wilt zoeken waar een waarde wel is ingevuld:
+```sql
+SELECT * 
+FROM Deelnemers
+WHERE Rol IS NOT NULL
+```
+
+*Let op:* IS NULL is iets anders dan een lege waarde.
+Met IS NULL vind je alleen de waarden die niet zijn ingevuld. Soms wordt een veld leeg ingevuld.
+
+*Tip:* Ook die kun je wel in 1 keer selecteren, maar dan heb je enkele functies nodig:
+```sql
+-- als een waarde NULL is, maak daarvan dan een lege string en selecteer dan alle waardes die tekst bevat
+SELECT *
+FROM Deelnemers
+WHERE LEN(ISNULL(Rol, '')) > 0 
+```
+
 ### Sorteren: ORDER BY
 Met **Order By** kun je de gegevens ook sorteren:
 ```sql
