@@ -1,0 +1,2 @@
+## Gegevens groeperen: GROUP BY
+

@@ -104,3 +104,5 @@ where naam = 1
 Msg 245, Level 16, State 1, Line 1
 Conversion failed when converting the varchar value 'Martijn Weisbeek' to data type int.
 ```
+
+Volgende stap: [gegevens groeperen](5-gegevens-groeperen.md)
