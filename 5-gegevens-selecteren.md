@@ -4,6 +4,7 @@ Als we gegevens in onze database hebben, dan is het ook handig als je die weer k
 - Selecteer een database (CTRL+U)
 - Gebruik New Query (CTRL+N) om een nieuw query-venster te openen
 
+* TOC
 {:toc}
 
 ### SELECT
