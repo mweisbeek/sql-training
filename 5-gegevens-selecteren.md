@@ -121,7 +121,7 @@ Order By Naam
 ```
 
 ### ERROR
-Wat gaat er fout in onderstaande query:
+Wat gaat er fout in onderstaande query?
 
 ```sql
 select *
