@@ -7,7 +7,8 @@ Deze SQL cursus heeft de volgende inhoud:
 - [Gebruiker aanmaken](2-gebruiker-aanmaken.md)
 - [Tabel aanmaken](3-tabel-aanmaken.md)
 - [Verschillende soorten gegevens](data-types.md) (tekst, numeriek, datum, tijd, etc)
-- [Indexes](keys-indexes.md): PRIMARY KEY
+- [Primary Keys](keys-indexes.md)
+- [Foreign Keys](foreign-keys.md)
 - [Gegevens toevoegen](4-gegevens-toevoegen.md): INSERT
 - [Gegevens zoeken / selecteren](5-gegevens-selecteren.md): SELECT
 - [Gegevens groeperen](6-group-by.md): GROUP BY
