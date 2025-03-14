@@ -37,3 +37,4 @@ PRIMARY KEY CLUSTERED
 GO
 ```
 
+![Relaties tussen tabellen](<images/tabel-referenties.png>)
