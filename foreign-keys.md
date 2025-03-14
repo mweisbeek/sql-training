@@ -22,7 +22,7 @@ Elk van deze Foreign Keys kun je zien als een soort opzoekfunctie. In de hoofdta
 
 Dit wordt ook wel het *normaliseren* van tabellen genoemd. Zo kun je gegevens logisch aan elkaar koppelen. Als dan in 1 tabel een waarde wijzigt, dan hoeft die alleen maar op die plaats te worden bijgewerkt. Toch profiteren alle gelinkte records daar direct van. Dit voorkomt het dubbel opslaan van gegevens, wat je bijvoorbeeld vaak doet in een Excel-sheet.
 
-## Nieuwe Provincies-tabel aanmaken
+### Nieuwe Provincies-tabel aanmaken
 ```sql
 CREATE TABLE [dbo].[Provincies](
 	[Code] [varchar](2) NOT NULL,
@@ -37,4 +37,5 @@ PRIMARY KEY CLUSTERED
 GO
 ```
 
+### Voorbeeld
 ![Relaties tussen tabellen](<images/tabel-referenties.png>)
