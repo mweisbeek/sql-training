@@ -120,6 +120,8 @@ FROM Deelnemers
 Order By Naam
 ```
 
+Zie [deze lijst](https://learn.microsoft.com/en-us/sql/t-sql/functions/cast-and-convert-transact-sql) voor alle conversies, vooral op het gebied van datum-tijd-formaten.
+
 ### ERROR
 Wat gaat er fout in onderstaande query?
 
