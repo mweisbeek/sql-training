@@ -11,9 +11,9 @@ set Locatie = 'Nijkerk-Centrum'
 where Locatie = 'Nijkerk'
 ```
 
-*Let op* dat je altijd goed het WHERE-gedeelte controleert. Een Update kun je namelijk ook uitvoeren zonder een WHERE. Dan geldt het opeens voor *ALLE* records in de betreffende tabel / recordset.
+**Let op** dat je altijd goed het WHERE-gedeelte controleert. Een Update kun je namelijk ook uitvoeren zonder een WHERE. Dan geldt het opeens voor *ALLE* records in de betreffende tabel / recordset.
 
-*Tip:* voer eerst een SELECT uit van de gegevens die je wilt wijzigen, voordat je een update uitvoert.
+**Tip:** voer eerst een SELECT uit van de gegevens die je wilt wijzigen, voordat je een update uitvoert.
 Bijvoorbeeld:
 ```sql
 select Locatie as Huidig, 'Nijkerk-Centrum' as Nieuw
@@ -35,3 +35,13 @@ from Deelnemers d
 inner join Provincies p on d.Provincie = p.Code
 where p.Omschrijving = 'Gelderland'
 ```
+
+### Edit Top 200 Rows
+In SSMS kun je met de rechtermuisknop op een tabel klikken en kiezen voor **Edit Top 200 Rows**.
+
+Dan komt er een nieuw venster met daarin de tabel, zoals je die bijvoorbeeld in Excel zou bewerken.
+Zo zie je alle records in die tabel en kun je ze direct bewerken. Dan heb je daarvoor geen SQL-commando's nodig, maar kun je wel de gegevens bewerken.
+Bijvoorbeeld: een nieuw record toevoegen, een bestaande bewerken of zelfs een record verwijderen.
+
+De gegevens worden dan ook direct gecontroleerd: als je iets invoert wat niet correct is volgens het gegevensformaat van de kolom, dan wordt het afgekeurd totdat je iets invoert dat wel correct is. Zo krijg je alsnog geen vervuiling in je tabellen (behalve als het pure tekst is en iemand maar iets invult).
+
