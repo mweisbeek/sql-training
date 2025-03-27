@@ -9,7 +9,11 @@ Deze SQL cursus heeft de volgende inhoud:
 - [Verschillende soorten gegevens](data-types.md) (tekst, numeriek, datum, tijd, etc)
 - [Primary Keys](keys-indexes.md)
 - [Foreign Keys](foreign-keys.md)
-- [Gegevens toevoegen](4-gegevens-toevoegen.md): INSERT
-- [Gegevens zoeken / selecteren](5-gegevens-selecteren.md): SELECT
-- [Gegevens groeperen](6-group-by.md): GROUP BY
-- [Werken met Functies](functions.md): MIN(), MAX(), COUNT(), SUM(), etc
+- [Create, Read, Update, Delete](crud.md): CRUD
+- - [Gegevens zoeken / selecteren](5-gegevens-selecteren.md): SELECT
+- - - [Gegevens groeperen](6-group-by.md): GROUP BY
+- - - [Werken met Functies](functions.md): MIN(), MAX(), COUNT(), SUM(), etc
+- - [Gegevens toevoegen](4-gegevens-toevoegen.md): meerdere manieren
+- - [Gegevens toevoegen](insert.md): INSERT
+- - [Gegevens bijwerken](update.md): UPDATE
+- - [Gegevens verwijderen](delete.md): DELETE
