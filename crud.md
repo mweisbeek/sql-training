@@ -6,10 +6,10 @@ Bewerkingen met gegevens kun je onderverdelen in de volgende categorieën:
 - Verwijderen (Delete)
 
 ### Create
-Dit gaat over het aanmaken van gegevens: INSERT.
+Dit gaat over het aanmaken van gegevens: [INSERT](insert.md).
 
 ### Read
-Dit gaat over het opvragen van gegevens: [SELECT](insert.md).
+Dit gaat over het opvragen van gegevens: [SELECT](5-gegevens-selecteren.md).
 
 ### Update
 Dit gaat over het bijwerken van gegevens: [UPDATE](update.md).
