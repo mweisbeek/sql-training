@@ -1,3 +1,5 @@
+{:toc}
+
 ## DELETE
 Met het DELETE-commando kun je gegevens verwijderen.
 

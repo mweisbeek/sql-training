@@ -1,3 +1,5 @@
+{:toc}
+
 ## INSERT
 Gegevens toevoegen doe je met het INSERT-commando.
 

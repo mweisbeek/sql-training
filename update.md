@@ -1,3 +1,5 @@
+{:toc}
+
 ## UPDATE
 Met het Update-commando kun je bestaande gegevens bijwerken.
 
