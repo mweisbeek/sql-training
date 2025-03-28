@@ -9,10 +9,10 @@ Bewerkingen met gegevens kun je onderverdelen in de volgende categorieën:
 Dit gaat over het aanmaken van gegevens: INSERT.
 
 ### Read
-Dit gaat over het opvragen van gegevens: [SELECT](5-gegevens-selecteren.md).
+Dit gaat over het opvragen van gegevens: [SELECT](insert.md).
 
 ### Update
-Dit gaat over het bijwerken van gegevens: UPDATE.
+Dit gaat over het bijwerken van gegevens: [UPDATE](update.md).
 
 ### Delete
-Dit gaat over het verwijderen van gegevens: DELETE.
+Dit gaat over het verwijderen van gegevens: [DELETE](delete.md).
