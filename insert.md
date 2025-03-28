@@ -12,7 +12,7 @@ VALUES ('Mijn naam', 1)
 De gegevens vanuit een SELECT-commando kun je rechtstreeks aan het INSERT-commando geven.
 
 ### Snelste manier
-Als de tabel *precies dezelfde opbouw* heeft, dan kan het op deze manier:
+Als de tabel **precies dezelfde opbouw** heeft, dan kan het op deze manier:
 
 ```sql
 INSERT INTO TabelNaam
@@ -35,11 +35,11 @@ FROM TabelNaam
 WHERE Actief = 1
 ```
 
-*Let op:* Als aan een tabel nieuwe kolommen worden toegevoegd, dan gaat het eens fout als je geen kolomnamen hebt opgegeven (!)
+**Let op:** Als aan een tabel nieuwe kolommen worden toegevoegd, dan gaat het eens fout als je geen kolomnamen hebt opgegeven (!)
 
 Gebruik je wel de namen van de kolommen, dan geef je zelf de volgorde op en zal dat goed blijven gaan. Totdat iemand besluit om een kolom uit een tabel te verwijderen. Gelukkig gebeurt dat niet zo vaak. 
 
-*Voorbeeld:* in de database van Exact Software staan kolommen die niet meer worden gevuld. Maar deze kolommen worden niet verwijderd. Dat is niet omdat ze dit zijn vergeten, maar vooral zodat bestaande queries nog steeds kunnen blijven werken.
+**Voorbeeld:** in de database van Exact Software staan kolommen die niet meer worden gevuld. Maar deze kolommen worden niet verwijderd. Dat is niet omdat ze dit zijn vergeten, maar vooral zodat bestaande queries nog steeds kunnen blijven werken.
 
 ### Tip: Snel een tabel maken
 Microsoft SQL Server kent een manier om snel een tabel aan te maken op basis van een SELECT-commando:
@@ -53,6 +53,6 @@ WHERE Actief = 1
 
 Zo kun je heel eenvoudig bepaalde gegevens (tijdelijk) in een tabel plaatsen, zonder dat je eerst daarvoor zelf een nieuwe tabel hoeft te maken. SQL Server kijkt dan naar de gegevens en maakt op basis daarvan een nieuwe tabel aan.
 
-*Let op:* Als er al een tabel met de naam *NieuweTabelNaam_20250603* bestaat, dan levert dat een foutmelding op.
+**Let op:** Als er al een tabel met de naam **NieuweTabelNaam_20250603** bestaat, dan levert dat een foutmelding op.
 Dan bedenk je een nieuwe naam en kan het alsnog gaan werken.
 

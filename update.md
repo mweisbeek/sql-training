@@ -13,7 +13,7 @@ set Locatie = 'Nijkerk-Centrum'
 where Locatie = 'Nijkerk'
 ```
 
-**Let op** dat je altijd goed het WHERE-gedeelte controleert. Een Update kun je namelijk ook uitvoeren zonder een WHERE. Dan geldt het opeens voor *ALLE* records in de betreffende tabel / recordset.
+**Let op** dat je altijd goed het WHERE-gedeelte controleert. Een Update kun je namelijk ook uitvoeren zonder een WHERE. Dan geldt het opeens voor **ALLE** records in de betreffende tabel / recordset.
 
 **Tip:** voer eerst een SELECT uit van de gegevens die je wilt wijzigen, voordat je een update uitvoert.
 Bijvoorbeeld:
