@@ -17,3 +17,4 @@ Deze SQL cursus heeft de volgende inhoud:
     - [Gegevens toevoegen](insert.md): INSERT
     - [Gegevens bijwerken](update.md): UPDATE
     - [Gegevens verwijderen](delete.md): DELETE
+- TOOLS: [SQL Server Profiler + Database Engine Tuning Advisor](profiler.md)
