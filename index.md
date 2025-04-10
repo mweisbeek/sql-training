@@ -18,3 +18,4 @@ Deze SQL cursus heeft de volgende inhoud:
     - [Gegevens bijwerken](update.md): UPDATE
     - [Gegevens verwijderen](delete.md): DELETE
 - TOOLS: [SQL Server Profiler + Database Engine Tuning Advisor](profiler.md)
+- TOOLS: [SQL Server Agent](agent.md) voor het schedulen van taken
